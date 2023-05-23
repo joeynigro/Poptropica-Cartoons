@@ -359,6 +359,9 @@
         </default_char>
 
         <actionpack id="actions" name="Standard" money="0" sharing="0" enable="Y">
+            <action id="float_on_balloon" name="Float - Balloon" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
+                <selection type="facial" facial_id="head_neutral"/>
+            </action>
             <action id="sit" name="Sit" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Poses">
                 <selection type="facial" facial_id="head_neutral"/>
             </action>
@@ -598,6 +601,9 @@
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="hair" id="balding" path="balding" name="balding" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="balloon" path="balloon" name="balloon" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="hair" id="cat" path="cat" name="cat" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
