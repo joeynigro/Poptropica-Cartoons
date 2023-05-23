@@ -190,6 +190,16 @@
 		<selection type="mustache" state_id="default"/>
 		<selection type="facedecoration" state_id="default"/>
 	</facial>
+	<facial id="head_eat" name="Eating" enable="Y">
+		<selection type="beard" state_id="default"/>
+		<selection type="eye" state_id="default"/>
+		<selection type="faceshape" state_id="default"/>
+		<selection type="glasses" state_id="default"/>
+		<selection type="hair" state_id="default"/>
+		<selection type="mouth" state_id="chew"/>
+		<selection type="mustache" state_id="default"/>
+		<selection type="facedecoration" state_id="default"/>
+	</facial>
 	<facial id="head_happy" name="Happy" enable="Y">
 		<selection type="beard" state_id="default"/>
 		<selection type="eye" state_id="happy"/>
@@ -345,7 +355,6 @@
         <default_char>
 		<color r="ccSkinColor">0xF4B99F</color>
 		<color r="ccHairMajor">0x4F2C0E</color>
-		<color r="ccEyeIris">0x000000</color>
 		<color r="ccMouthLip">0xF8A0A2</color>
 		<component type="bodyshape" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
@@ -600,6 +609,9 @@
 	<component type="hair" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
+	<component type="hair" id="024" path="024" name="024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
 	<component type="hair" id="balding" path="balding" name="balding" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
@@ -618,6 +630,9 @@
 	<component type="hair" id="drhare" path="drhare" name="drhare" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
+	<component type="hair" id="hijab" path="hijab" name="hijab" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
 	<component type="hair" id="police_male" path="police_male" name="police_male" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
@@ -626,6 +641,7 @@
 	</component>
 	<component type="mouth" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -644,6 +660,7 @@
 	</component>
 	<component type="mouth" id="002" path="002" name="002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -662,6 +679,7 @@
 	</component>
 	<component type="mouth" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -680,6 +698,7 @@
 	</component>
 	<component type="mouth" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -698,6 +717,7 @@
 	</component>
 	<component type="mouth" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -716,6 +736,7 @@
 	</component>
 	<component type="mouth" id="006" path="006" name="006" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -734,6 +755,7 @@
 	</component>
 	<component type="mouth" id="007" path="007" name="007" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -752,6 +774,7 @@
 	</component>
 	<component type="mouth" id="008" path="008" name="008" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -770,6 +793,7 @@
 	</component>
 	<component type="mouth" id="009" path="009" name="009" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -788,6 +812,7 @@
 	</component>
 	<component type="mouth" id="010" path="010" name="010" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -806,6 +831,7 @@
 	</component>
 	<component type="mouth" id="011" path="011" name="011" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -824,6 +850,7 @@
 	</component>
 	<component type="mouth" id="012" path="012" name="012" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -842,6 +869,7 @@
 	</component>
 	<component type="mouth" id="bobby" path="bobby" name="bobby" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -860,6 +888,7 @@
 	</component>
 	<component type="mouth" id="dog" path="dog" name="dog" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -878,6 +907,7 @@
 	</component>
 	<component type="mouth" id="drhare" path="drhare" name="drhare" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
@@ -894,8 +924,9 @@
 		<state id="talk_sad" filename="talk_sad.swf"/>
 		<state id="taunt" filename="taunt.swf"/>
 	</component>
-	<component type="mouth" id="zomberry" path="zomberry" name="zomberry" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+	<component type="mouth" id="zomberry" path="zomberry" name="zomberry" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="angry" filename="angry.swf"/>
+		<state id="chew" filename="chew.swf"/>
 		<state id="cry" filename="cry.swf"/>
 		<state id="default" filename="default.swf"/>
 		<state id="evil" filename="evil.swf"/>
