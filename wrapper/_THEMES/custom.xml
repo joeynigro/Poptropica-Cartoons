@@ -15,4 +15,7 @@
   <char id="1" name="Dr. Hare" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
+  <char id="5" name="Zombie Dancer" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+    <tags>poptropica,_free</tags>
+  </char>
 </theme> 

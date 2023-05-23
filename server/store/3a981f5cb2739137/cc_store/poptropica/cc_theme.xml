@@ -395,6 +395,7 @@
 		<library type="GoUpper" id="009" path="009" name="009" thumb="009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoUpper" id="balloon" path="balloon" name="balloon" thumb="balloon_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoUpper" id="bobby" path="bobby" name="bobby" thumb="bobby_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
+        <library type="GoUpper" id="dancer" path="dancer" name="dancer" thumb="dancer_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="dj" path="dj" name="dj" thumb="dj_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="drhare" path="drhare" name="drhare" thumb="drhare_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
