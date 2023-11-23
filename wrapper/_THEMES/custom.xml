@@ -3,19 +3,22 @@
   <prop id="apple.swf" name="Apple" holdable="1" placeable="1" wearable="" facing="left" thumb="" enable="Y" is_premium="N" aid="11858" money="" sharing="">
     <tag>cat:Food and Drink</tag>
   </prop>
-  <char id="4" name="Balloon Boy" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+  <char id="004" name="Balloon Boy" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
-  <char id="2" name="Bobby Bill" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+  <char id="002" name="Bobby Bill" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
-  <char id="3" name="DJ Saturday Nite" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+  <char id="003" name="DJ Saturday Nite" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
-  <char id="1" name="Dr. Hare" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+  <char id="001" name="Dr. Hare" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
-  <char id="5" name="Zombie Dancer" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+  <char id="006" name="Poseidon" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
+    <tags>poptropica,_free</tags>
+  </char>
+  <char id="005" name="Zombie Dancer" cc_theme_id="poptropica" thumbnail_url="char-default.png" copyable="Y">
     <tags>poptropica,_free</tags>
   </char>
 </theme> 

@@ -355,6 +355,8 @@
         <default_char>
 		<color r="ccSkinColor">0xF4B99F</color>
 		<color r="ccHairMajor">0x513220</color>
+		<color r="ccMustache">0x513220</color>
+		<color r="ccBeard">0x513220</color>
 		<color r="ccMouthLip">0xF8A0A2</color>
 		<component type="bodyshape" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
@@ -399,6 +401,7 @@
         <library type="GoUpper" id="dj" path="dj" name="dj" thumb="dj_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="drhare" path="drhare" name="drhare" thumb="drhare_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		<library type="GoUpper" id="police" path="police" name="police" thumb="police_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoUpper" id="poseidon" path="poseidon" name="poseidon" thumb="poseidon_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 
 <!-- PANTS START HERE -->
         <library type="GoLower" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -408,6 +411,7 @@
         <library type="GoLower" id="animal" path="animal" name="animal" thumb="animal_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoLower" id="dj" path="dj" name="dj" thumb="dj_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="drhare" path="drhare" name="drhare" thumb="drhare_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<library type="GoLower" id="poseidon" path="poseidon" name="poseidon" thumb="poseidon_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
 <!-- BACK PROPS START HERE -->
 		<library type="GoBehindBody" id="bobby" path="bobby" name="bobby" thumb="bobby_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -441,6 +445,9 @@
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="beard" id="005" path="005" name="005" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="beard" id="poseidon" path="poseidon" name="poseidon" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="eye" id="open_male" path="open_male" name="open_male" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -639,6 +646,15 @@
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="hair" id="police_female" path="police_female" name="police_female" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="poseidon" path="poseidon" name="poseidon" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="rocker_male" path="rocker_male" name="rocker_male" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="rocker_female" path="rocker_female" name="rocker_female" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="hair" id="turban" path="turban" name="turban" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
@@ -960,7 +976,13 @@
 	<component type="mustache" id="004" path="004" name="004" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
+	<component type="mustache" id="poseidon" path="poseidon" name="poseidon" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
 	<component type="facedecoration" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="facedecoration" id="earrings1" path="earrings1" name="earrings1" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="facedecoration" id="face_mask" path="face_mask" name="face_mask" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
