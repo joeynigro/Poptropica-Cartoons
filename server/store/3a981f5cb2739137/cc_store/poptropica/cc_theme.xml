@@ -359,8 +359,8 @@
 		<component type="bodyshape" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="faceshape" component_id="001" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-		<component type="hair" component_id="009" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
-		<component type="mouth" component_id="003" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+		<component type="hair" component_id="001" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
+		<component type="mouth" component_id="002" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" />
 		<component type="eye" component_id="open_male" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0"/>
 		<library type="GoHands" component_id="001" theme_id="poptropica" gobucks="0" gopoints="0"/>
 		<library type="GoLower" component_id="001" theme_id="poptropica" gobucks="0" gopoints="0"/>
