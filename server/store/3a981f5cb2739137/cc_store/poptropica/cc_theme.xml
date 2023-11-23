@@ -28,25 +28,25 @@
         <choice>0xB70000</choice>
     </color>
     <color r="ccMustache" component_type="mustache" enable="Y">
-		<choice>0xE0E0E0</choice>
-        <choice>0x131313</choice>
-        <choice>0x4F2C0E</choice>
-        <choice>0xB73D0C</choice>
-        <choice>0xFFE600</choice>
+		<choice>0xAFAFAF</choice>
+        <choice>0x000000</choice>
+        <choice>0x513220</choice>
+        <choice>0xFF6029</choice>
+        <choice>0xF4C362</choice>
     </color>
     <color r="ccBeard" component_type="beard" enable="Y">
-		<choice>0xE0E0E0</choice>
-        <choice>0x131313</choice>
-        <choice>0x4F2C0E</choice>
-        <choice>0xB73D0C</choice>
-        <choice>0xFFE600</choice>
+		<choice>0xAFAFAF</choice>
+        <choice>0x000000</choice>
+        <choice>0x513220</choice>
+        <choice>0xFF6029</choice>
+        <choice>0xF4C362</choice>
     </color>
     <color r="ccHairMajor" component_type="hair" enable="Y">
-		<choice>0xE0E0E0</choice>
-        <choice>0x131313</choice>
-        <choice>0x4F2C0E</choice>
-        <choice>0xB73D0C</choice>
-        <choice>0xFFE600</choice>
+		<choice>0xAFAFAF</choice>
+        <choice>0x000000</choice>
+        <choice>0x513220</choice>
+        <choice>0xFF6029</choice>
+        <choice>0xF4C362</choice>
     </color>
     <color r="ccHairMinor" component_type="hair" enable="Y">
         <choice>0xFFFFFF</choice>
@@ -77,18 +77,18 @@
         <choice>0x454E62</choice>
     </color>
     <color r="ccDecMajor" component_type="facedecoration" enable="Y">
-		<choice>0xE0E0E0</choice>
-        <choice>0x131313</choice>
-        <choice>0x4F2C0E</choice>
-        <choice>0xB73D0C</choice>
-        <choice>0xFFE600</choice>
+		<choice>0xAFAFAF</choice>
+        <choice>0x000000</choice>
+        <choice>0x513220</choice>
+        <choice>0xFF6029</choice>
+        <choice>0xF4C362</choice>
     </color>
     <color r="ccDecMinor" component_type="facedecoration" enable="Y">
-		<choice>0xE0E0E0</choice>
-        <choice>0x131313</choice>
-        <choice>0x4F2C0E</choice>
-        <choice>0xB73D0C</choice>
-        <choice>0xFFE600</choice>
+		<choice>0xAFAFAF</choice>
+        <choice>0x000000</choice>
+        <choice>0x513220</choice>
+        <choice>0xFF6029</choice>
+        <choice>0xF4C362</choice>
     </color>
     <color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
         <choice>0xAE0057</choice>
@@ -354,7 +354,7 @@
     <bodyshape id="default" name="Default" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
         <default_char>
 		<color r="ccSkinColor">0xF4B99F</color>
-		<color r="ccHairMajor">0x4F2C0E</color>
+		<color r="ccHairMajor">0x513220</color>
 		<color r="ccMouthLip">0xF8A0A2</color>
 		<component type="bodyshape" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 		<component type="freeaction" component_id="default" theme_id="poptropica" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
@@ -398,7 +398,8 @@
         <library type="GoUpper" id="dancer" path="dancer" name="dancer" thumb="dancer_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="dj" path="dj" name="dj" thumb="dj_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="drhare" path="drhare" name="drhare" thumb="drhare_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
-		
+		<library type="GoUpper" id="police" path="police" name="police" thumb="police_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+
 <!-- PANTS START HERE -->
         <library type="GoLower" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoLower" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -638,6 +639,9 @@
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="hair" id="police_female" path="police_female" name="police_female" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+		<state id="default" filename="default.swf"/>
+	</component>
+	<component type="hair" id="turban" path="turban" name="turban" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="default" filename="default.swf"/>
 	</component>
 	<component type="mouth" id="001" path="001" name="001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
