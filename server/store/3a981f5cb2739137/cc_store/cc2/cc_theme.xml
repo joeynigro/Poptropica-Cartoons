@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cc_theme xmlns:xi="http://alvin.goanimate.org/store" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="cc2" studio_theme_id="action" name="Poptropica" version="2.0" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd">
+<color r="ccSkinColor" component_type="bodyshape" enable="Y">
+		<choice>0xEED8C9</choice>
+		<choice>0xEBC9AF</choice>
+		<choice>0xE2C294</choice>
+		<choice>0xCE9D7D</choice>
+		<choice>0x8d6850</choice>
+		<choice>0xFFF9EC</choice>
+		<choice>0xEAD2B0</choice>
+		<choice>0xAC8151</choice>
+	</color>
+	<color r="ccFaceHairColor" component_type="bodyshape" enable="Y">
+		<choice>0xF2E784</choice>
+		<choice>0xE3EEF4</choice>
+		<choice>0x7E4D1B</choice>
+		<choice>0x321F1B</choice>
+		<choice>0x9AB03E</choice>
+		<choice>0xC48888</choice>
+		<choice>0xBA4545</choice>
+		<choice>0x6C5E91</choice>
+	</color>
+	<color r="ccGlassesFrame" component_type="glasses" enable="Y">
+		<choice>0x343434</choice>
+		<choice>0xC43232</choice>
+		<choice>0x8A684C</choice>
+		<choice>0x2A4A76</choice>
+		<choice>0x159CA2</choice>
+		<choice>0x5F4929</choice>
+		<choice>0x4A6028</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccGlassesLens" component_type="glasses" enable="Y">
+		<choice>0xF5BE6C</choice>
+		<choice>0x365D43</choice>
+		<choice>0x5A4364</choice>
+		<choice>0x52524E</choice>
+		<choice>0x572C2C</choice>
+		<choice>0xFFCC00</choice>
+		<choice>0x640F0F</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccMouthLip" component_type="mouth" enable="Y">
+		<choice>0xEABBA8</choice>
+		<choice>0xF68973</choice>
+		<choice>0xDD859D</choice>
+		<choice>0xC66160</choice>
+		<choice>0xA63636</choice>
+		<choice>0x891212</choice>
+		<choice>0x7D5134</choice>
+		<choice>0xEB8369</choice>
+	</color>
+	<color r="ccEyebrow" component_type="eyebrow" enable="Y">
+		<choice>0x7E4D1B</choice>
+		<choice>0x483315</choice>
+		<choice>0x421D0B</choice>
+		<choice>0x321F1B</choice>
+		<choice>0x151515</choice>
+		<choice>0xBA4545</choice>
+		<choice>0x494576</choice>
+		<choice>0x6D3434</choice>
+	</color>
+	<color r="ccHairMajor" component_type="hair" enable="Y">
+		<choice>0xFBFFFE</choice>
+		<choice>0x763634</choice>
+		<choice>0x2E2A41</choice>
+		<choice>0xCD9A31</choice>
+		<choice>0x615C3F</choice>
+		<choice>0x341E18</choice>
+		<choice>0x7E4937</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccHairMinor" component_type="hair" enable="Y">
+		<choice>0xFEFEFE</choice>
+		<choice>0x2F9AC4</choice>
+		<choice>0x3DD17D</choice>
+		<choice>0xDE5C5C</choice>
+		<choice>0xD0A12D</choice>
+		<choice>0x366B40</choice>
+		<choice>0x8A2828</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccUpperMain" component_type="GoUpper" enable="Y">
+		<choice>0x67737F</choice>
+		<choice>0xF3D64E</choice>
+		<choice>0x1BA67C</choice>
+		<choice>0xDA4A42</choice>
+		<choice>0x1B336F</choice>
+		<choice>0xFFF8E0</choice>
+		<choice>0x3F3F33</choice>
+		<choice>0x5B1934</choice>
+	</color>
+	<color r="ccUpperMinor" component_type="GoUpper" enable="Y">
+		<choice>0xFEFEFE</choice>
+		<choice>0x3A552A</choice>
+		<choice>0xFF4052</choice>
+		<choice>0x08594A</choice>
+		<choice>0xC6C946</choice>
+		<choice>0x48BAD2</choice>
+		<choice>0xA27B50</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccLowerMain" component_type="GoLower" enable="Y">
+		<choice>0xFFFEFF</choice>
+		<choice>0x4F5157</choice>
+		<choice>0xA4A4A4</choice>
+		<choice>0x5E5F34</choice>
+		<choice>0xFF87A3</choice>
+		<choice>0xCC9966</choice>
+		<choice>0x65503B</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccDecMajor" component_type="facedecoration" enable="Y">
+		<choice>0xFBFFFE</choice>
+		<choice>0x763634</choice>
+		<choice>0x2E2A41</choice>
+		<choice>0xCD9A31</choice>
+		<choice>0x615C3F</choice>
+		<choice>0x341E18</choice>
+		<choice>0x7E4937</choice>
+		<choice>0x3C3C3C</choice>
+	</color>
+	<color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
+		<choice>0xAE0057</choice>
+		<choice>0x53A8DF</choice>
+		<choice>0xEC9EC5</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0x5F4929</choice>
+		<choice>0x4A6028</choice>
+		<choice>0x000000</choice>
+	</color>
+	<color r="ccBackMinor" component_type="GoBehindBody" enable="Y">
+		<choice>0xFFFFFF</choice>
+		<choice>0x555555</choice>
+		<choice>0xBC6A70</choice>
+		<choice>0x360202</choice>
+		<choice>0xC1BFB8</choice>
+		<choice>0xFFCC00</choice>
+		<choice>0x640F0F</choice>
+		<choice>0x000000</choice>
+	</color>
+  <facial id="head_neutral" name="Neutral" enable="Y">
+    <selection type="eye" state_id="default" />
+    <selection type="facedecoration" state_id="default" />
+    <selection type="faceshape" state_id="default" />
+    <selection type="glasses" state_id="default" />
+    <selection type="hair" state_id="default" />
+    <selection type="mouth" state_id="default" />
+  </facial>
+</cc_theme>
